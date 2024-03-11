@@ -1,0 +1,19 @@
+package factorial.java;
+
+public class factorial {
+
+	public static void main(String[] args) {
+		
+		
+		int num = 4;
+		
+		int ans = 1;
+		
+		for(int i=1;i<=4;i++) {
+			ans = i*ans;
+		}
+		System.out.println(ans);
+
+	}
+
+}
